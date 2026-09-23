@@ -97,8 +97,9 @@ driver usually wins.
 npm run dist:win
 ```
 
-Fill in the three `appx` identity values in `package.json` from Partner Center
-(Product Identity page) before building for the Store.
+The three `appx` identity values in `package.json` come from Partner Center
+(Product identity page) and must match it exactly for the Store to accept the
+package.
 
 On recent Windows 11 builds the `makeappx.exe` that electron-builder 24 ships
 in its winCodeSign bundle fails with "side-by-side configuration is incorrect",
