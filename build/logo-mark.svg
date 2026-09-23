@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Labelane mark: a price tag with a barcode and an amber edge. Transparent
+       background; scripts/store/make-assets.cjs composes it onto tiles. -->
+  <defs>
+    <clipPath id="body">
+      <rect x="64" y="63" width="154" height="130" rx="16"/>
+    </clipPath>
+  </defs>
+  <path d="M80 63 H202 A16 16 0 0 1 218 79 V177 A16 16 0 0 1 202 193 H80 A16 16 0 0 1 64 177 V159.3 L36.8 128 L64 96.7 V79 A16 16 0 0 1 80 63 Z" fill="#f8fafc"/>
+  <rect x="194.5" y="63" width="24" height="130" fill="#f59e0b" clip-path="url(#body)"/>
+  <circle cx="111.5" cy="128" r="12.9" fill="#1e293b"/>
+  <g fill="#1e293b">
+    <rect x="140.1" y="88.8" width="7.4" height="77.9" rx="1.6"/>
+    <rect x="150.7" y="88.8" width="3.2" height="77.9" rx="1.2"/>
+    <rect x="157.6" y="88.8" width="10.1" height="77.9" rx="1.6"/>
+    <rect x="171" y="88.8" width="3.2" height="77.9" rx="1.2"/>
+    <rect x="177.9" y="88.8" width="7.8" height="77.9" rx="1.6"/>
+  </g>
+</svg>
